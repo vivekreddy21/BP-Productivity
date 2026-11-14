@@ -186,17 +186,18 @@ function setup() {
   sheet_('events', ['timestamp', 'app', 'event']);
   sheet_('daily', ['date', 'minutes', 'budget', 'over_min', 'penalty_bp', 'by_app_json']);
 
-  // Planner sheets (seeded with examples the first time only — edit them to match your life).
+  // Planner sheets, seeded the first time only with EXAMPLE rows. Replace the 'fixed' tab
+  // (or these rows) with your own schedule.
   sheet_('settings', ['key', 'value', 'note'], SETTINGS_DEFAULTS, [2]);
   sheet_('fixed', FIXED_HEADERS, [
     ['Breakfast', 'Daily', '07:45', '08:30', 'meal', 0],
     ['Lunch', 'Daily', '12:15', '13:00', 'meal', 0],
     ['Dinner', 'Daily', '18:45', '19:30', 'meal', 0],
-    ['SAIT', 'Mon', '13:30', '14:30', 'meeting', 10],
-    ['FAST Lab', 'Mon', '15:00', '16:00', 'meeting', 10],
-    ['ECE 374 Lecture', 'Tue', '09:00', '11:20', 'class', 20],
-    ['ECE 374 Discussion', 'Wed,Fri', '11:00', '12:00', 'class', 10],
-    ['ECE 498 Lecture', 'Tue,Thu', '14:00', '15:20', 'class', 15],
+    ['Morning Lecture', 'Mon,Wed,Fri', '10:00', '10:50', 'class', 15],
+    ['Seminar', 'Tue,Thu', '09:30', '10:45', 'class', 15],
+    ['Lab Section', 'Wed', '14:00', '16:00', 'class', 20],
+    ['Team Meeting', 'Mon', '15:00', '16:00', 'meeting', 10],
+    ['Office Hours', 'Thu', '13:30', '14:30', 'meeting', 5],
     ['Workout', 'Mon,Wed,Fri', '17:30', '18:15', 'workout', 0],
     ['Guitar', 'Daily', '19:30', '20:00', 'hobby', 0],
     ['Reading', 'Daily', '22:00', '22:30', 'hobby', 0],
