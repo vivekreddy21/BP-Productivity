@@ -1,4 +1,6 @@
-# Brain Points (This app is a all LLM Generated Code even the README I did create the idea and concept though, quick prototype run more care may be put into a real application maybe one day with this concept)
+# Brain Points 
+
+Disclaimer: (This app is a all LLM Generated Code even the README desc (too lazy lol) I did create the idea and concept though, this is a quick prototype run more care may be put into a real application maybe one day with this concept)
 
 A gamified day planner that runs on free Google tools. You give it your weekly schedule and your tasks, and it plans each day for you, writes every block to Google Calendar so your phone (and smartwatch) buzzes when it's time to switch, and tracks your **brain points**: a 100-point daily budget of mental energy.
 
